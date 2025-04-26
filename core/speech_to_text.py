@@ -3,7 +3,7 @@ import sounddevice as sd
 import json
 from vosk import Model, KaldiRecognizer
 
-model = Model("models/vosk-model")
+model = Model(r"C:\Users\Parthav\Desktop\Project\AI Assistant\models\vosk-model")
 
 def recognize_speech(duration=8):
     q = queue.Queue()
